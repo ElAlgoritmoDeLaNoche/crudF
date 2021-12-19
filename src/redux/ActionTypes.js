@@ -1,0 +1,12 @@
+export const ADD_CONTACT = "ADD_CONTACT";
+export const DELETE_CONTACT = "DELETE_CONTACT";
+export const UPDATE_CONTACT = "UPDATE_CONTACT";
+export const GET_CONTACTS = "GET_CONTACTS";
+export const GET_CONTACT = "GET_CONTACT";
+
+export const ADD_COMMERCE = "ADD_COMMERCE";
+export const DELETE_COMMERCE = "DELETE_COMMERCE";
+export const UPDATE_COMMERCE = "UPDATE_COMMERCE";
+export const GET_COMMERCES = "GET_COMMERCES";
+export const GET_COMMERCE = "GET_COMMERCE";
+export const RESET = "RESET";
