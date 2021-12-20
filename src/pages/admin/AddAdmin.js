@@ -36,6 +36,7 @@ export default function AddAdmin() {
   const [userId, setUserId] = useState(null)
   const [errorMsg, setErrorMsg] = useState(null)
 
+
   const { name, contact, email, address } = state;
 
   const dispatch = useDispatch()

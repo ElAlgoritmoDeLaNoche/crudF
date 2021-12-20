@@ -1,6 +1,7 @@
 import React, { useState, useRef } from 'react'
 import { Link, useHistory } from 'react-router-dom'
 import { useAuth } from '../../context/AuthContext'
+import logo from '../../img/logo.jpeg'
 
 export default function Signup() {
 
@@ -28,6 +29,7 @@ export default function Signup() {
 
   return (
     <div>
+      <img src={logo} alt="" />
       <section className="login">
         <div className="loginContainer">
           <h1>Registrate</h1>

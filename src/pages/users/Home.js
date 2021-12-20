@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import logo from '../../img/logo.jpeg'
 
 const home = () => {
   return (
@@ -11,6 +12,7 @@ const home = () => {
           <button><Link to='/login'>Inicia Sesión</Link></button>
         </div>
       </nav>
+      <img src={logo} alt="" style={{ width: '100%'}} />
     </div>
   )
 }
