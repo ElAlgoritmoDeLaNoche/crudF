@@ -2,7 +2,9 @@ import * as types from './ActionTypes'
 
 const initialState = {
   contacts: [],
-  contact: {}
+  contact: {},
+  commerces: [],
+  commerce: {}
 }
 
 const contactReducer = (state = initialState, action) => {

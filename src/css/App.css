@@ -151,3 +151,6 @@ h1{
 .text-start, label {
   color: #f3f3f3 !important;
 }
+.bg {
+  height: 90vh;
+}
